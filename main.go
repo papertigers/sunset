@@ -43,7 +43,9 @@ func main() {
 			} else {
 				fmt.Printf("%v\n", elmDate)
 			}
-			return
+			// Found our match exit successfully
+			os.Exit(0)
 		}
 	}
+	os.Exit(1)
 }
