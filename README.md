@@ -16,9 +16,9 @@ Usage of ./sunset:
 ### Example
 
 ```
-DS_APIKEY="XXX" ./sunset
+DARKSKY_API_KEY="XXX" ./sunset
 1503101697
 
-DS_APIKEY="XXX" ./sunset -epoch=false
+DARKSKY_API_KEY="XXX" ./sunset -epoch=false
 2017-08-18 17:14:57 -0700 PDT
 ```

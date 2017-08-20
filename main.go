@@ -23,9 +23,9 @@ func main() {
 
 	flag.Parse()
 
-	apiKey := os.Getenv("DS_APIKEY")
+	apiKey := os.Getenv("DARKSKY_API_KEY")
 	if apiKey == "" {
-		log.Fatalln("Need a Dark SKy API Key")
+		log.Fatalln("Need a Dark Sky API Key (env DARKSKY_API_KEY)")
 	}
 
 	client := darksky.NewClient(apiKey)
